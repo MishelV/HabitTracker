@@ -26,7 +26,6 @@ class RecordChartsScreen extends StatelessWidget {
           children: [
             Container(
               child: const Poop(),
-              // height: 100,
             ),
             Container(
               child: StackedChart(),
@@ -38,6 +37,7 @@ class RecordChartsScreen extends StatelessWidget {
 }
 
 class Poop extends StatelessWidget {
+  // TODO: DELETE THIS!
   const Poop({Key? key}) : super(key: key);
 
   @override
